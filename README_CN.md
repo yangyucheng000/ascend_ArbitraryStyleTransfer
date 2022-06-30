@@ -152,14 +152,17 @@ bash ./scripts/run_eval.sh [PLATFORM] [DEVICE_ID] [CONTENT_PATH] [STYLE_PATH] [I
 | 训练好的模型大小 | 71.27M (.ckpt file)                                          |
 | 脚本             |                                                              |
 
-#| 参数           | 单Ascend / GPU                               |
-| -------------- | -------------------------------------------- |
-| 模型版本       | v1                                           |
-| 环境           | Ascend                                       |
-| MindSpore 版本 | 1.3.0                                        |
-| 数据集         | 内容数据集: MS COCO. 风格数据集: PBN testing |
-| batch_size     | 1                                            |
-| 输出           | 风格迁移图片                                 |
+### 测试效果
+
+| Parameters        | single Ascend                  |
+| ----------------- | ------------------------------------ |
+| Model Version     | v1                                   |
+| Resource          | Ascend;                              |
+| MindSpore Version | 1.3.0                                |
+| Dataset           | content: MS COCO. style: PBN testing |
+| batch_size        | 1                                    |
+| Speed             |                    |
+| outputs           | style transfer pictures              |                                 
 
 
 # [样例](#内容)
