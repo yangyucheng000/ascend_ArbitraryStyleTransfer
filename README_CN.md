@@ -162,6 +162,7 @@ bash ./scripts/run_eval.sh [PLATFORM] [DEVICE_ID] [CONTENT_PATH] [STYLE_PATH] [I
 | batch_size     | 1                                            |
 | 输出           | 风格迁移图片                                 |
 
+
 # [样例](#内容)
 
 ## 风格迁移结果
