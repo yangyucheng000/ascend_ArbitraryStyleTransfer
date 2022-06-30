@@ -152,8 +152,7 @@ bash ./scripts/run_eval.sh [PLATFORM] [DEVICE_ID] [CONTENT_PATH] [STYLE_PATH] [I
 | 训练好的模型大小 | 71.27M (.ckpt file)                                          |
 | 脚本             |                                                              |
 
-### 测试效果
-
+#| 参数           | 单Ascend / GPU                               |
 | -------------- | -------------------------------------------- |
 | 模型版本       | v1                                           |
 | 环境           | Ascend                                       |
