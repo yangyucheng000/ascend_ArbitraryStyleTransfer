@@ -147,27 +147,27 @@ Evaluation result will be stored in the output. Under this, you can find style t
 | Parameters                 |                                                              |
 | -------------------------- | ------------------------------------------------------------ |
 | Model Version              | v1                                                           |
-| Resource                   | Ascend / GPU(Tesla V100-PCIE 32G)；CPU：2.60GHz 52cores ；RAM：754G |
+| Resource                   | Ascend RAM：754G |
 | MindSpore Version          | 1.3.0                                                        |
 | Dataset                    | content: MS COCO. style: PBN training and DTD dataset        |
 | Training Parameters        | epoch=100,  batch_size = 16                                  |
 | Optimizer                  | Adam                                                         |
 | Loss Function              | content loss and  style loss                                 |
 | outputs                    | style transfer pictures                                      |
-| Speed                      | 1 Ascend: 392ms/step; 8 Ascend: 303ms/step; 1 GPU: 560ms/step; 8 GPU：582ms/step |
-| Total time                 | 1 Ascend: 56h20m21s; 8 Ascend: 6h15m40s; 8 GPU:11h30m        |
+| Speed                      | 1 Ascend: 392ms/step; 8 Ascend: 303ms/step; |
+| Total time                 | 1 Ascend: 56h20m21s; 8 Ascend: 6h15m40s;      |
 | Checkpoint for Fine tuning | 71.27M (.ckpt file)                                          |
 
 ### Evaluation Performance
 
-| Parameters        | single Ascend / GPU                  |
+| Parameters        | single Ascend                 |
 | ----------------- | ------------------------------------ |
 | Model Version     | v1                                   |
 | Resource          | Ascend;                              |
 | MindSpore Version | 1.3.0                                |
 | Dataset           | content: MS COCO. style: PBN testing |
 | batch_size        | 1                                    |
-| Speed             | GPU: 342ms/step;                     |
+| Speed             |                      |
 | outputs           | style transfer pictures              |
 
 # [Example](#contents)
